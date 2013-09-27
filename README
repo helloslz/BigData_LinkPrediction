@@ -1,0 +1,15 @@
+Link prediction using MapReduce on Hadoop 
+----------------------------------------
+description:
+It is a link prediction algorithm based on the Katz Score between two nodes, computed by the number of paths and length between them. It is implemented under MapReduce framework on Hadoop. The process is composed of two phases.
+
+This program can be used for any kind of directed link prediction problem. 
+
+input 
+Due to confidential reason, the training and testing data cannot be given. The ttraining data should be put under data/iter_0 folder, and test data should be under data/test folder.
+Both the train and test data should be in the following format,
+"from_id	to_id"(\t within between)
+The arguments of the main function can be seen in the Driver Class.
+
+output
+The precision and recall of the predicion.
